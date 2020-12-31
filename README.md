@@ -23,4 +23,4 @@ Society; Alabama Law Institute;"
 9. children, e.g., "Richard C., Jr., and Claude Nevin" 
 10. committees, e.g., "chair, Appropriations; Banking, Housing, and Urban Affairs; Environment and  Public Works; Joint Committee on the Library; Rules and Administration;  elected to the 96th Congress on November 7, 1978; reelected to the three  succeeding Congresses; elected to the U.S. Senate on November 4, 1986; reelected to each succeeding Senate term."
 
-
+**Note:** Not all people are married, not all have children, etc. We first regex married, children, etc. and then if we find it, we get the subsequent text. 
