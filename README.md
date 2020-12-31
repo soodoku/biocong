@@ -22,5 +22,7 @@ Society; Alabama Law Institute;"
 8. married, e.g., "the former Annette Nevin in 1960" 
 9. children, e.g., "Richard C., Jr., and Claude Nevin" 
 10. committees, e.g., "chair, Appropriations; Banking, Housing, and Urban Affairs; Environment and  Public Works; Joint Committee on the Library; Rules and Administration;  elected to the 96th Congress on November 7, 1978; reelected to the three  succeeding Congresses; elected to the U.S. Senate on November 4, 1986; reelected to each succeeding Senate term."
+11. URL, e.g., http://jones.senate.gov etc.
+12. Filename, e.g., CDIR-2018-10-29-STATISTICALINFORMATION-2.htm
 
 **Note:** Not all people are married, not all have children, etc. We first regex married, children, etc. and then if we find it, we get the subsequent text. 
