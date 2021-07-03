@@ -1,5 +1,17 @@
 ## Congressional Biographies
 
+
+## 97th ---  104th Congress
+
+We use text from the [pdfs](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NZPPJM) (downloaded from Google Books, from where these are freely available) and then parse the text.
+
+### Scripts
+
+1. [parse](scripts/parse-biocong-from-text-all.ipynb)
+2. [clean](scripts/clean-biocong-from-text-all.ipynb)
+
+## 105th --- 115th Congress
+
 We scrape congressional biographies for 105th to the 115th Congress from the [Congressional Directory](https://www.govinfo.gov/app/collection/cdir/). We download the biographical files, e.g.,  https://www.govinfo.gov/content/pkg/CDIR-2018-10-29/html/CDIR-2018-10-29-STATISTICALINFORMATION-2.htm and parse them to extract information such as birthdate, number of children, education, etc.  
 
 ### Scripts
